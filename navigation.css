@@ -1,0 +1,158 @@
+
+@charset utf-8;
+
+
+main {
+margin-top: 5%;
+}
+
+
+footer {
+display: block;
+display: flex;
+justify-content: flex-end;
+font-weight: 700;
+background: #777;
+padding: 0 5px 0 0;
+}
+
+//Start vertical navigation bar
+
+
+
+#vertical_nav {
+margin: 0;
+padding: 0;
+}
+
+
+#vertical_nav ul {
+list-style-type: none;
+width: 20%;
+}
+
+
+#vertical_nav ul li {
+position: relative;
+}
+
+
+#vertical_nav ul li a {
+width: 100%;
+color: #ffffff;
+background-image: linear-gradient(to right, #80b3ff, #3385ff, #0052cc, #002966, #001433);
+display: block;
+height: 64px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+
+
+#vertical_nav ul li a:hover {
+background-image: linear-gradient(to right, #80b3ff, #0052cc, #001433);
+}
+
+
+
+//Start Drop Menu
+
+
+
+#drop_nav {
+margin: 0;
+padding: 0;
+}
+
+
+
+#drop_nav ul {
+list-style-type: none;
+width: 100%;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+
+
+#drop_nav li {
+position: relative;
+width: 100%;
+text-align: center;
+}
+
+
+#drop_nav a {
+color: #000000;
+background-color: #d5ff80;
+display: flex;
+height: 64px;
+font-family: Helvetica, Arial, sans-serif; 
+font-weight: 500;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+transition: 0.4s;
+}
+
+
+
+#drop_nav ul li a:hover {
+background-color:  #88cc00;
+}
+
+
+#drop_nav li:hover .submenu > li {
+display: block;
+margin-top: 0;
+}
+
+.submenu li {
+display: none;
+position: relative;
+margin-top: 0;
+}
+
+.submenu {
+display: flex;
+flex-direction: column;
+position: absolute;
+width: 100%;
+}
+
+.submenu li {
+position: relative;
+}
+
+.submenu li:hover {
+display: block;
+
+
+}
+
+
+/*Add a class named arrow here. Include all 
+required formatting per the instructions.*/
+#drop_nav .arrow {
+margin-left: 8px;
+color: #737373;
+font-size: 12px;
+}
+
+
+
+//Start Navigation Tabs
+
+
+
+
+
+
+
+
+//Start responsive menu here
+
